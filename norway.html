@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photofake [News Data]</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <button id="fullscreenBtn"><img src="Images/Size icon.png" alt=""></button>
+        <li><a href="index.html">International/Reuters</a></li>
+        <li><a href="norway.html" class="active-page">Norway</a></li>
+        <li><a href="US.html">US</a></li>
+      </ul>
+    </nav>
+    <!-- <div class="left-header-items">
+      <p>Columns</p>
+      <div class="slider-container">
+        
+        <button onclick="adjustWidth('50%')">1</button>
+        <button onclick="adjustWidth('75%')">2</button>
+        <button onclick="adjustWidth('100%')">3</button>
+      </div>
+    </div> -->
+  </header>
+
+<!-- Reasons for not checking the truthfulness of doubtful or untrue information on the internet -->
+<section> 
+  <div class="datawrapper-700">
+    <div>
+      <iframe title="Reasons for not checking the truthfulness of doubtful or untrue information on the internet" aria-label="Grouped Columns" id="datawrapper-chart-78gux" src="https://datawrapper.dwcdn.net/78gux/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="560" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+      </script>
+      <a href="https://www.ssb.no/en/statbank/table/13053/tableViewLayout1/" target="_blank" >Source</a>
+    </div>
+  </div>
+</section>
+
+<section> 
+  <iframe title="Medievaner_IU24_02.10" width="750" height="390" src="https://app.powerbi.com/view?r=eyJrIjoiZGU1YjAzMzUtZDFjYS00MmMyLWE4N2MtYjkxYWE0ZThlY2VhIiwidCI6IjFhOTFmOTY2LTI0N2UtNDk3Yi1iZWU2LTA5MDcyZjdlYTAyYSIsImMiOjh9&amp;pageName=802df156aa00be0ded1c" frameborder="0" allowfullscreen="true"></iframe>
+  <a href="https://dfo.no/undersokelser/innbyggerundersokelsen-2024/medievaner" target="_blank" style="margin: 0 auto; display:block; text-align: center">Source</a>
+</section>
+
+<section class="brown-background">
+  <h2 style="padding-top: 30px;">Tillit til at faktatjenester presenterer fakta [2018]</h2>
+  <img src="Images/Faktasjekkere.png" alt="">
+  <a href="https://surveybanken.sikt.no/no/study/adddff4e-b9e6-469e-9355-f07bc73ecbe8/18?type=analyses&elems=532aac9f-6c16-4054-ac2c-8de06e5c8512_2&file=7fcb756f-26aa-4b57-a86f-540626bceff6_10  " target="_blank" style="margin: 0 auto; display:block; text-align: center">Source</a>
+
+</section>
+
+
+
+
+<script>
+  function adjustWidth(width) {
+    document.getElementById('datawrapper').style.width = width;
+  }
+</script>
+
+<script>
+  function openExcelLink() {
+    window.open('https://1drv.ms/x/c/4b988e222d7a9cdf/ETDtHcw4kjRPkXuRToggdZoB-u35-tCIRohWjjllthFk5w?e=1SGf9m', '_blank');
+  }
+</script>
+
+<script>
+  const fullscreenBtn = document.getElementById('fullscreenBtn');
+
+  fullscreenBtn.addEventListener('click', () => {
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen();
+    } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+      document.documentElement.mozRequestFullScreen();
+    } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari and Opera
+      document.documentElement.webkitRequestFullscreen();
+    } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+      document.documentElement.msRequestFullscreen();
+    }
+  });
+</script>
+
+<footer></footer>
+
+</body>
+</html>
